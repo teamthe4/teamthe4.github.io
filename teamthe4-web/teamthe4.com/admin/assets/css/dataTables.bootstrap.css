@@ -67,11 +67,11 @@ table.dataTable thead .sorting_desc {
 }
 
 table.dataTable thead .sorting_asc_disabled {
-    background: url('../../../404.html') no-repeat center right !important;
+    background: url('../images/sort_asc_disabled.png') no-repeat center right !important;
 }
 
 table.dataTable thead .sorting_desc_disabled {
-    background: url('../../../404.html') no-repeat center right !important;
+    background: url('../images/sort_desc_disabled.png') no-repeat center right !important;
 }
 
 table.dataTable th:active {
