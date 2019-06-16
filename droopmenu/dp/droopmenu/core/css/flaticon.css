@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/flaticon/Flaticon.eot");
+  src: url("../fonts/flaticon/Flaticond41d.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/flaticon/Flaticon.woff") format("woff"),
+       url("../fonts/flaticon/Flaticon.ttf") format("truetype"),
+       url("../fonts/flaticon/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/flaticon/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+	font-size: 42px;
+	font-style: normal;
+}
+
+.flaticon-internet:before { content: "\f100"; }
+.flaticon-file:before { content: "\f101"; }
+.flaticon-tablet:before { content: "\f102"; }
+.flaticon-document:before { content: "\f103"; }
+.flaticon-code:before { content: "\f104"; }
+.flaticon-refresh:before { content: "\f105"; }
+.flaticon-new:before { content: "\f106"; }
+.flaticon-central:before { content: "\f107"; }
+.flaticon-eye:before { content: "\f108"; }
+.flaticon-grid:before { content: "\f109"; }
+.flaticon-sign:before { content: "\f10a"; }
+.flaticon-object:before { content: "\f10b"; }
+.flaticon-bucket:before { content: "\f10c"; }
+.flaticon-custom:before { content: "\f10d"; }
+.flaticon-medal:before { content: "\f10e"; }
+.flaticon-search:before { content: "\f10f"; }
+.flaticon-research:before { content: "\f110"; }
+.flaticon-www:before { content: "\f111"; }
+.flaticon-safari:before { content: "\f112"; }
+.flaticon-access:before { content: "\f113"; }
+.flaticon-access-1:before { content: "\f114"; }
+.flaticon-pencil:before { content: "\f115"; }
+.flaticon-portfolio:before { content: "\f116"; }
+.flaticon-idea:before { content: "\f117"; }
+.flaticon-question:before { content: "\f118"; }
+.flaticon-emoji:before { content: "\f119"; }
+.flaticon-box:before { content: "\f11a"; }
+.flaticon-scroll:before { content: "\f11b"; }
+.flaticon-arrow:before { content: "\f11c"; }
+.flaticon-view:before { content: "\f11d"; }
+.flaticon-multimedia-option:before { content: "\f11e"; }
+.flaticon-ruler:before { content: "\f11f"; }
+.flaticon-paragraph:before { content: "\f120"; }
+.flaticon-text-lines:before { content: "\f121"; }
+.flaticon-menu:before { content: "\f122"; }
+.flaticon-menu-1:before { content: "\f123"; }
