@@ -38,18 +38,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cairo">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="assets/favicon/site.webmanifest">
 	<style>
 	.hidden{display: none !important;}
 	.imgheight{min-height:800px;max-height:900px;height:800px;width: 100%;}
+	.tajawal{
+    font-family: 'Tajawal', serif;
+}
+.fcairo {
+    font-family: 'cairo', serif;
+}
 	</style>
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean-search">
+    <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean-search tajawal">
         <div class="container-fluid"><a class="navbar-brand" href="http://teamthe4.github.io" data-bs-hover-animate="bounce">ويب لانجلى</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
                 class="collapse navbar-collapse" id="navcol-1">
@@ -59,7 +70,7 @@
                     <li class="nav-item" role="presentation"><a class="nav-link active" href="#">المشروعات</a></li>
 					
                     <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">أكــثـر&nbsp;</a>
-                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">بند 1</a><a class="dropdown-item" role="presentation" href="#">بند 2</a><a class="dropdown-item" role="presentation" href="#">بند 3</a></div>
+                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">الأخبار</a><a class="dropdown-item" role="presentation" href="#">المدونة</a><a class="dropdown-item" role="presentation" href="#">اتصل</a></div>
                     </li>
                 </ul>
                 <form class="form-inline mr-auto" target="_self">
@@ -67,18 +78,7 @@
                 </form><a class="btn btn-light action-button" role="button" href="http://teamthe4.github.io" style="font-family:Cairo, sans-serif;font-size:22px;">WebLangly</a></div>
         </div>
     </nav>
-    <div class="simple-slider hidden">
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image:url(https://placeholdit.imgix.net/~text?txtsize=68&amp;txt=Slideshow+Image&amp;w=1920&amp;h=500);"></div>
-                <div class="swiper-slide" style="background-image:url(https://placeholdit.imgix.net/~text?txtsize=68&amp;txt=Slideshow+Image&amp;w=1920&amp;h=500);"></div>
-                <div class="swiper-slide" style="background-image:url(https://placeholdit.imgix.net/~text?txtsize=68&amp;txt=Slideshow+Image&amp;w=1920&amp;h=500);"></div>
-            </div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-    </div>
+    
     <div class="photo-gallery">
         <div class="container">
             <div class="intro">
@@ -90,42 +90,47 @@
     <div class="projects-clean">
         <div class="container">
             <div class="intro">
-                <h2 class="text-center">المـشـروعـات</h2>
-                <p class="text-center"><h3 class="text-center">قوالب وتصميمات</h3></p>
+                <h2 class="text-center tajawal">المـشـروعـات</h2>
+                <p class="text-center "><h3 class="text-center tajawal">قوالب وتصميمات</h3></p>
             </div>
             <div class="row projects">
-                <div class="col-sm-6 col-lg-4 item"><img class="img-thumbnail img-fluid imgheight" src="dropmegamenu/droopmenu-2019-06-16-12_15_44.jpg"  data-bs-hover-animate="bounce">
-                    <h3 class="name"><a href="droopmenu/dp/droopmenu/index.html" target="_blank">قوالب الهيدر والفوتر</a></h3>
-                    <p class="description" style="font-size:25px;">أساسيات تصميم موقع الويب<br>متعدد اللغات<br>متجاوب مع جميع الأجهزة</p>
+                <div class="col-sm-6 col-lg-4 item"><img class="img-thumbnail img-fluid imgheight" src="dropmegamenu/droopmenu-2019-06-16-12_15_44.jpg" data-bs-hover-animate="animate__heartBeat" >
+                    <h3 class="name tajawal"><a href="droopmenu/dp/droopmenu/index.html" target="_blank" class="btn btn-block btn-lg btn-outline-primary font-weight-bold">قوالب الهيدر والفوتر</a></h3>
+                    <p class="description fcairo" style="font-size:20px;">أساسيات تصميم موقع الويب<br>متعدد اللغات<br>متجاوب مع جميع الأجهزة</p>
                 </div>
                 
-				<div class="col-sm-6 col-lg-4 item"><img class="img-thumbnail img-fluid imgheight" src="webox/web-box/html/webox/webox-index-html.jpg">
-                    <h3 class="name"><a href="webox/web-box/html/webox/demos/index.html" target="_blank">ويب بوكس - Webox</a><br></h3>
-                    <p data-bs-hover-animate="wobble" class="description" style="font-size:25px;">نسخة عرض للأختيار<br>مجموعة متعددة التصاميم<br>متعدد اللغات</p>
+				<div class="col-sm-6 col-lg-4 item"><img class="img-thumbnail img-fluid imgheight" src="webox/web-box/html/webox/webox-index-html.jpg" data-bs-hover-animate="animate__heartBeat">
+                    <h3 class="name tajawal"><a href="webox/web-box/html/webox/demos/index.html" target="_blank" class="btn btn-block btn-lg btn-outline-primary font-weight-bold">ويب بوكس</a></h3>
+                    <p data-bs-hover-animate="wobble" class="description fcairo" style="font-size:20px;">نسخة عرض للأختيار<br>مجموعة متعددة التصاميم<br>متعدد اللغات</p>
 				</div>
               
 				
-				<div class="col-sm-6 col-lg-4 item"><img class="img-thumbnail img-fluid imgheight" src="assets/img/Multipurpose.jpg" data-bs-hover-animate="swing">
-                    <h3 class="name"><a href="https://teamthe4.github.io/mp-cms.html" target="_blank">ملتي بربوس</a></h3>
-                    <p class="description" style="font-size:25px;">موقع ويب متعدد الأغراض<br>نظام إدارة المحتوى CMS<br>كل ماتحتاجة + متعدد اللغات</p>
+				<div class="col-sm-6 col-lg-4 item"><img class="img-thumbnail img-fluid imgheight" src="assets/img/Multipurpose.jpg" data-bs-hover-animate="animate__heartBeat">
+                    <h3 class="name tajawal"><a href="mp-cms.html" target="_blank" class="btn btn-block btn-lg btn-outline-primary font-weight-bold">ملتي بربوس</a></h3>
+                    <p class="description fcairo" style="font-size:20px;">موقع ويب متعدد الأغراض<br>نظام إدارة المحتوى CMS<br>كل ماتحتاجة + متعدد اللغات</p>
                 </div>
                
-				<div class="col-sm-6 col-lg-4 item"><img class="img-thumbnail img-fluid imgheight" src="assets/img/teamthe4.com-Weapon-kingler.gif" data-bs-hover-animate="swing">
-                    <h3 class="name"><a href="https://teamthe4.netlify.com/Weapon-kingler/index.html" target="_blank">متجر أسلحة وذخائر</a></h3>
-                    <p class="description" style="font-size:25px;">يقبل التعديل ويدعم اللغات</p>
+				
+				
+				<div class="col-sm-6 col-lg-4 item"><img class="img-thumbnail img-fluid imgheight" src="assets/img/shugul.jpg" data-bs-hover-animate="animate__heartBeat">
+                    <h3 class="name tajawal"><a href="http://aymansaber.byethost32.com/app/OSC" target="_blank" class="btn btn-block btn-lg btn-outline-primary font-weight-bold">أقوى مبوبة إعلانات خليجية</a></h3>
+                    <p class="description fcairo" style="font-size:20px;">مصمم ليناسب دول الخليج العريى<br>سوق ومبوبة إعلانات إحترافية<br>إستثمار الكبار يحتاج الى بداية</p>
                 </div>
                
 			   
-			  <div class="col-sm-6 col-lg-4 item"><img class="img-thumbnail img-fluid imgheight" src="assets/img/teamthe4.com-Weapon-ruger.gif" data-bs-hover-animate="swing">
-				 <h3 class="name"><a href="https://teamthe4.netlify.com/Weapon-ruger/index.html" target="_blank">متجر أسلحة وذخائر</a></h3>
-                    <p class="description" style="font-size:25px;">يقبل التعديل ويدعم اللغات</p>
-                </div>
-             
-			 <div class="col-sm-6 col-lg-4 item"><img class="img-thumbnail img-fluid imgheight" src="assets/img/teamthe4.com-Weapon-Store-Gun-Shop.jpg" data-bs-hover-animate="swing">
-				 <h3 class="name"><a href="https://teamthe4.netlify.com/Weapon-Store-Gun-Shop/index.html" target="_blank">متجر أسلحة وذخائر</a></h3>
-                    <p class="description" style="font-size:25px;">ميقبل التعديل ويدعم اللغات</p>
-                </div>
-			 
+				<div class="col-sm-6 col-lg-4 item"><img class="img-thumbnail img-fluid imgheight" src="assets/img/aymansaber-cv.jpg" data-bs-hover-animate="animate__heartBeat">
+                    <h3 class="name tajawal"><a href="http://aymansaber.epizy.com/cv/" target="_blank" class="btn btn-block btn-lg btn-outline-primary font-weight-bold">نظام إدارة المحتوي مع السيرة الذاتية</a></h3>
+                    <p class="description fcairo" style="font-size:20px;">موقع ويب + السيرة الذاتية<br>نظام حجز المواعيد<br>الخدمات + المهارات + المدونة</p>
+					</div>
+               
+				
+				
+				
+				<div class="col-sm-6 col-lg-4 item"><img class="img-thumbnail img-fluid imgheight" src="assets/img/eggun-shop.jpg" data-bs-hover-animate="animate__heartBeat">
+                    <h3 class="name tajawal"><a href="http://eggun.epizy.com/gunstor" target="_blank" class="btn btn-block btn-lg btn-outline-primary font-weight-bold">المتجر الإلكترونى الإحترافي</a></h3>
+                    <p class="description fcairo" style="font-size:20px;">متجر إلكترونى منتجات ( مادية + رقمية )<br>يدعم أكثر من بوبة للدفع الإلكتروني<br>يقبل التشغيل ( إعلانات او متجر )</p>
+					</div>
+     		 
                 </div> 
             </div>
         </div>
