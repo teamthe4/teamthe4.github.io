@@ -8,7 +8,7 @@
 <meta name="description" content="أفضل موقع ويب .منصة رقمية متكاملة ومتعددة الاستخدامات مصممة لتلبية احتياجات الشركات والمؤسسات والمهنيين في مختلف المجالات . موقع مرن وقابل للتخصيص .">
 
 <!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://teamthe4.github.io/mp-cms.html">
+<meta property="og:url" content="https://weblangly.netlify.app/mp-cms.html">
 <meta property="og:type" content="website">
 <meta property="og:title" content="CMS أقوي موقع ويب">
 <meta property="og:description" content="منصة رقمية متكاملة ومتعددة الاستخدامات مصممة لتلبية احتياجات الشركات والمؤسسات والمهنيين في مختلف المجالات . موقع مرن وقابل للتخصيص .">
@@ -17,12 +17,12 @@
   Replace the variables in the brackets with your own values and use this URL in the image tag below this comment. Ensure values are URL encoded.
   For more information, read: https://www.opengraph.xyz/blog/how-to-implement-dynamic-open-graph-images
 -->
-<meta property="og:image" itemprop="image" content="https://teamthe4.github.io/assets/img/mp-cms-meta.png">
+<meta property="og:image" itemprop="image" content="https://weblangly.netlify.app/assets/img/mp-cms-meta.png">
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:domain" content="https://teamthe4.github.io/mp-cms.html">
-<meta property="twitter:url" content="https://teamthe4.github.io/mp-cms.html">
+<meta property="twitter:domain" content="https://weblangly.netlify.app/mp-cms.html">
+<meta property="twitter:url" content="https://weblangly.netlify.app/mp-cms.html">
 <meta name="twitter:title" content="CMS أقوي موقع ويب">
 <meta name="twitter:description" content="منصة رقمية متكاملة ومتعددة الاستخدامات مصممة لتلبية احتياجات الشركات والمؤسسات والمهنيين في مختلف المجالات . موقع مرن وقابل للتخصيص .">
 <!--
@@ -30,7 +30,7 @@
   Replace the variables in the brackets with your own values and use this URL in the image tag below this comment. Ensure values are URL encoded.
   For more information, read: https://www.opengraph.xyz/blog/how-to-implement-dynamic-open-graph-images
 -->
-<meta name="twitter:image"  content="https://teamthe4.github.io/assets/img/mp-cms-meta.png">
+<meta name="twitter:image"  content="https://weblangly.netlify.app/assets/img/mp-cms-meta.png">
 
 <!-- Meta Tags Generated via https://www.opengraph.xyz -->
 	
@@ -73,12 +73,107 @@ background-size: contain;
 	.photo-gallery .intro {
     margin: 0 auto 0px;
 }
+
+.progress-wrap {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  display: block;
+  border-radius: 50px;
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.2);
+  z-index: 10000;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(15px);
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+.progress-wrap.active-progress {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.progress-wrap::after {
+  position: absolute;
+  font-family: 'FontAwesome';
+  font-weight: 900;
+  content: '\f062';
+  text-align: center;
+  line-height: 46px;
+  font-size: 18px;
+  color: #1f2029;
+  left: 0;
+  top: 0;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  display: block;
+  z-index: 1;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+.lightScrollIcon::after {
+  color: #ecedf3 !important;
+}
+
+.progress-wrap:hover::after {
+  opacity: 0;
+}
+
+.progress-wrap::before {
+  position: absolute;
+  font-family: 'FontAwesome';
+  font-weight: 900;
+  content: '\f062';
+  text-align: center;
+  line-height: 46px;
+  font-size: 18px;
+  opacity: 0;
+  background-image: linear-gradient(298deg, #da2c4d, #f8ab37);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  left: 0;
+  top: 0;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  display: block;
+  z-index: 2;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+.progress-wrap:hover::before {
+  opacity: 1;
+}
+
+.progress-wrap svg path {
+  fill: none;
+}
+
+.progress-wrap svg.progress-circle path {
+  stroke: #1f2029;
+  stroke-width: 4;
+  box-sizing: border-box;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+.photo-gallery .intro {
+max-width: none;
+}
+
 	</style>
 </head>
 
 <body>
     <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean-search tajawal">
-        <div class="container-fluid"><a class="navbar-brand" href="http://teamthe4.github.io" data-bs-hover-animate="bounce">ويب لانجلى</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container-fluid"><a class="navbar-brand" href="https://weblangly.netlify.app" data-bs-hover-animate="bounce">ويب لانجلى</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
                 class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav">
@@ -93,10 +188,12 @@ background-size: contain;
                 </ul>
                 <form class="form-inline mr-auto" target="_self">
                     <div class="form-group hidden"><label for="search-field"><i class="fa fa-search" style="padding:5px;"></i></label><input class="form-control search-field" type="search" name="search" placeholder="ابحث" id="search-field"></div>
-                </form><a class="btn btn-light action-button" role="button" href="http://teamthe4.github.io" style="font-family:Cairo, sans-serif;font-size:22px;">WebLangly</a></div>
+                </form><a class="" role="button" href="https://weblangly.netlify.app" style=""><img src="logo.png" style="max-width: 150px;max-height: 100px;"></a></div>
         </div>
     </nav>
-    <div class="simple-slider hidden">
+    
+	
+	<div class="simple-slider hidden">
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide" style="background-image:url(https://placeholdit.imgix.net/~text?txtsize=68&amp;txt=Slideshow+Image&amp;w=1920&amp;h=500);"></div>
@@ -273,7 +370,11 @@ background-size: contain;
     </div>	
 
 <a target="_blank" href="https://api.whatsapp.com/send?phone=201063939953&amp;text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85+%D8%B9%D9%84%D9%8A%D9%83%D9%85+%F0%9F%91%8B" id="whatsapp-button" style="position:fixed; bottom:10px; right:10px; width:60px; z-index:999;"><img style="width:100%;" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPHBhdGggc3R5bGU9ImZpbGw6I0VERURFRDsiIGQ9Ik0wLDUxMmwzNS4zMS0xMjhDMTIuMzU5LDM0NC4yNzYsMCwzMDAuMTM4LDAsMjU0LjIzNEMwLDExNC43NTksMTE0Ljc1OSwwLDI1NS4xMTcsMCAgUzUxMiwxMTQuNzU5LDUxMiwyNTQuMjM0UzM5NS40NzYsNTEyLDI1NS4xMTcsNTEyYy00NC4xMzgsMC04Ni41MS0xNC4xMjQtMTI0LjQ2OS0zNS4zMUwwLDUxMnoiLz4KPHBhdGggc3R5bGU9ImZpbGw6IzU1Q0Q2QzsiIGQ9Ik0xMzcuNzEsNDMwLjc4Nmw3Ljk0NSw0LjQxNGMzMi42NjIsMjAuMzAzLDcwLjYyMSwzMi42NjIsMTEwLjM0NSwzMi42NjIgIGMxMTUuNjQxLDAsMjExLjg2Mi05Ni4yMjEsMjExLjg2Mi0yMTMuNjI4UzM3MS42NDEsNDQuMTM4LDI1NS4xMTcsNDQuMTM4UzQ0LjEzOCwxMzcuNzEsNDQuMTM4LDI1NC4yMzQgIGMwLDQwLjYwNywxMS40NzYsODAuMzMxLDMyLjY2MiwxMTMuODc2bDUuMjk3LDcuOTQ1bC0yMC4zMDMsNzQuMTUyTDEzNy43MSw0MzAuNzg2eiIvPgo8cGF0aCBzdHlsZT0iZmlsbDojRkVGRUZFOyIgZD0iTTE4Ny4xNDUsMTM1Ljk0NWwtMTYuNzcyLTAuODgzYy01LjI5NywwLTEwLjU5MywxLjc2Ni0xNC4xMjQsNS4yOTcgIGMtNy45NDUsNy4wNjItMjEuMTg2LDIwLjMwMy0yNC43MTcsMzcuOTU5Yy02LjE3OSwyNi40ODMsMy41MzEsNTguMjYyLDI2LjQ4Myw5MC4wNDFzNjcuMDksODIuOTc5LDE0NC43NzIsMTA1LjA0OCAgYzI0LjcxNyw3LjA2Miw0NC4xMzgsMi42NDgsNjAuMDI4LTcuMDYyYzEyLjM1OS03Ljk0NSwyMC4zMDMtMjAuMzAzLDIyLjk1Mi0zMy41NDVsMi42NDgtMTIuMzU5ICBjMC44ODMtMy41MzEtMC44ODMtNy45NDUtNC40MTQtOS43MWwtNTUuNjE0LTI1LjZjLTMuNTMxLTEuNzY2LTcuOTQ1LTAuODgzLTEwLjU5MywyLjY0OGwtMjIuMDY5LDI4LjI0OCAgYy0xLjc2NiwxLjc2Ni00LjQxNCwyLjY0OC03LjA2MiwxLjc2NmMtMTUuMDA3LTUuMjk3LTY1LjMyNC0yNi40ODMtOTIuNjktNzkuNDQ4Yy0wLjg4My0yLjY0OC0wLjg4My01LjI5NywwLjg4My03LjA2MiAgbDIxLjE4Ni0yMy44MzRjMS43NjYtMi42NDgsMi42NDgtNi4xNzksMS43NjYtOC44MjhsLTI1LjYtNTcuMzc5QzE5My4zMjQsMTM4LjU5MywxOTAuNjc2LDEzNS45NDUsMTg3LjE0NSwxMzUuOTQ1Ii8+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="></a>
-
+	<div class="progress-wrap">
+      <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+  </div>
 <div class="footer-clean hidden">
         <footer>
             <div class="container">
@@ -318,6 +419,47 @@ background-size: contain;
 
 
   <script>
+  (function($) { "use strict";
+	
+$(document).ready(function(){"use strict";
+
+		//Scroll back to top
+
+		var progressPath = document.querySelector('.progress-wrap path');
+		var pathLength = progressPath.getTotalLength();
+		progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
+		progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
+		progressPath.style.strokeDashoffset = pathLength;
+		progressPath.getBoundingClientRect();
+		progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';
+		var updateProgress = function () {
+			var scroll = $(window).scrollTop();
+			var height = $(document).height() - $(window).height();
+			var progress = pathLength - (scroll * pathLength / height);
+			progressPath.style.strokeDashoffset = progress;
+		}
+		updateProgress();
+		$(window).scroll(updateProgress);
+		var offset = 50;
+		var duration = 550;
+		jQuery(window).on('scroll', function() {
+			if (jQuery(this).scrollTop() > offset) {
+				jQuery('.progress-wrap').addClass('active-progress');
+			} else {
+				jQuery('.progress-wrap').removeClass('active-progress');
+			}
+		});
+		jQuery('.progress-wrap').on('click', function(event) {
+			event.preventDefault();
+			jQuery('html, body').animate({scrollTop: 0}, duration);
+			return false;
+		})
+
+
+	});
+
+})(jQuery);	
+
     /*
 	window._2chatConfig = {
       phoneNumber:'+201063939953',
