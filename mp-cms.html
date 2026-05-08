@@ -53,11 +53,11 @@
 <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
 <link rel="manifest" href="assets/favicon/site.webmanifest">
 	<style>
-	.hidden{display: none !important;}
+		.hidden{display: none !important;}
 	.imgheight{min-height:800px;max-height:900px;height:800px;width: 100%;}
 	.article-clean {
     font-family: 'cairo', serif;
-    font-size: 18px;
+    font-size: 20px;
 }
 .fcairo {
     font-family: 'cairo', serif;
@@ -79,8 +79,8 @@ background-size: contain;
 
 .progress-wrap {
   position: fixed;
-  right: 50px;
-  bottom: 50px;
+  right: 10px;
+  bottom: 10px;
   height: 46px;
   width: 46px;
   cursor: pointer;
@@ -238,15 +238,23 @@ outline: none !important;
 
 <body>
     <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean-search tajawal">
-        <div class="container-fluid"><a class="navbar-brand" href="https://weblangly.netlify.app" data-bs-hover-animate="bounce">ويب لانجلى</a><button class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only"></span><span class="navbar-toggler-icon"></span></button>
-            <div
-                class="collapse navbar-collapse" id="navcol-1">
+        <div class="container-fluid">
+		<div class="text-center">
+				<a class="" role="button" href="https://weblangly.netlify.app" style=""><img src="logo.png" style="max-width: 120px;max-height: 100px;scale: 1.5;"></a>
+				</div>
+		
+		<a class="navbar-brand" href="https://weblangly.netlify.app" data-bs-hover-animate="bounce">ويب لانجلى | Weblangly</a>
+		<button class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navcol-1">
+		<span class="sr-only"></span>
+		<span class="navbar-toggler-icon"></span>
+		</button>
+        <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav">
                     <li class="nav-item hidden " role="presentation"><a class="nav-link active" href="#">من نحن ؟</a></li>
                     <li class="nav-item hidden " role="presentation"><a class="nav-link active" href="#">المشروعات</a></li>
 					
                     <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">إتصل&nbsp;</a>
-                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#"><i class="bg-success fa fa-lg fa-whatsapp rounded-circle text-white"></i> واتس اب - موبايل</a>
+                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="https://api.whatsapp.com/send?phone=201063939953&text=!%20%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A3%D9%86%20%D8%A3%D8%B9%D8%B1%D9%81%20%D8%A7%D9%84%D9%85%D8%B2%D9%8A%D8%B0"><i class="bg-success fa fa-lg fa-whatsapp rounded-circle text-white"></i> واتس اب - موبايل</a>
 						<a class="dropdown-item team-boxed text-center" role="presentation" href="https://api.whatsapp.com/send?phone=201063939953&text=!%20%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A3%D9%86%20%D8%A3%D8%B9%D8%B1%D9%81%20%D8%A7%D9%84%D9%85%D8%B2%D9%8A%D8%B0" style="direction: ltr;">+20 106 3939 953</a>
 						</div>
                     </li>
@@ -254,9 +262,7 @@ outline: none !important;
                 <form class="form-inline mr-auto" target="_self">
                     <div class="form-group hidden"><label for="search-field"><i class="fa fa-search" style="padding:5px;"></i></label><input class="form-control search-field" type="search" name="search" placeholder="ابحث" id="search-field"></div>
                 </form>
-				<div class="text-center">
-				<a class="" role="button" href="https://weblangly.netlify.app" style=""><img src="logo.png" style="max-width: 150px;max-height: 100px;scale: 1.3;"></a>
-				</div>
+				
 				</div>
         </div>
     </nav>
@@ -266,12 +272,18 @@ outline: none !important;
         <div class="container">
             <div class="intro">
                 <h2 class="tajawal text-center text-nowrap" >السلام عليكم ورحمة الله</h2>
-                <p class="text-center" style="font-size:27px;font-family:Cairo, sans-serif;color:rgb(27,119,174);">خبراء الويب من اوركال<br>برمجة وتصميم مواقع</p>
-				<h4 class="tajawal text-center" >متاجر إلكترونية, مبوبات إعلانية, طبية, إخبارية, تعليمية, تعريفية, شركات وشخصية</h4>
+                <p class="text-center" style="font-size:27px;font-family:Cairo, sans-serif;color:rgb(27,119,174);">خبراء الويب من اوركال<br>خبرة 25 عام فى برمجة وتصميم مواقع ومنصات الويب</p>
+				<h4 class="tajawal text-center" >متاجر إلكترونية, مبوبات إعلانية,مواقع ومنصات طبية </h4>
+				<h4 class="tajawal text-center" >مواقع ومنصات إخبارية, تعليمية, تعريفية, استشارات قانونية ومحاماة, شركات وشخصية</h4>
 				<h4 class="tajawal team-boxed text-center text-danger text-nowrap">متخصصون لذلك محترفون</h4>
 				<h4 class="tajawal team-boxed text-center text-danger ">أحدث تقنيات الويب والذكاء الصناعى</h4>
-				<h4 class="tajawal team-boxed text-center text-danger ">توفير خدمات ميكنة الأعمال</h4>
-				<h4 class="tajawal team-boxed text-center text-danger ">حجز النطاقات والإستضافة</h4>
+				<h4 class="tajawal team-boxed text-center text-danger ">توفير خدمات وتطبيقات ميكنة وادارة الأعمال</h4>
+				<h4 class="tajawal team-boxed text-center text-danger ">حجز الدومين ( النطاق - اسم الموقع )</h4>
+				<h4 class="tajawal team-boxed text-center text-danger ">حجز الإستضافة ( السيرفر - الهوست )</h4>
+				<h4 class="tajawal team-boxed text-center text-danger ">حجز البريد الالكترونى الاحترافى
+				</h4>
+				<h4 class="tajawal team-boxed text-center text-danger ">ربط المواقع مع محركات ومواقع البحث والارشفة. مثل جوجل وبينج ..</h4>
+				<h4 class="tajawal team-boxed text-center text-danger ">خدمات السيو - تحسين الظهور فى محركات البحث</h4>
             </div>
         </div>
     </div>
@@ -280,8 +292,10 @@ outline: none !important;
         <div class="container">
             <div class="intro">
                 
-				<h2 class="text-nowrap text-center" style="font-family:Cairo, sans-serif;">مـوقع ويب إحترافي ومتكامل</h2>
-                <p class="text-center"><h3 class="text-center" style="font-size:27px;font-family:Cairo, sans-serif;color:rgb(27,119,174);">نظام إدارة محتوى متعدد الأغراض CMS</h3></p>
+				<h2 class="text-nowrap text-center" style="font-family:Cairo, sans-serif;">منصة وموقع ويب إحترافي ومتكامل</h2>
+                <h3 class="text-center" style="font-size:27px;font-family:Cairo, sans-serif;color:rgb(27,119,174);">نظام إدارة محتوى متعدد الأغراض CMS</h3>
+				<h3 class="text-center" style="font-size:27px;font-family:Cairo, sans-serif;color:rgb(27,119,174);">مدعوم بالذكاء الصناعى</h3>
+				<p class="text-center"></p>
             </div>
              
             </div>
@@ -311,7 +325,7 @@ outline: none !important;
             <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
                 <div class="intro">
                     <h1 class="text-center" style="font-size:27px;font-family:Cairo, sans-serif;color:rgb(27,119,174);">منصة رقمية . موقع ويب . متعدد الأغراض والإستخدامات</h1>
-                    <p class="text-center"><span class="by">بواسطة</span> <a href="#">ويب لانجلى</a> <span class="date">2024</span></p>
+                    <p class="text-center"><span class="by">بواسطة</span> <a href="#">ويب لانجلى</a> <span class="date">2026</span></p>
                 </div>
                 <div class="text">
                     <p>منصة رقمية متكاملة ومتعددة الاستخدامات تصمم لتلبية احتياجات الشركات والمؤسسات والمهنيين في مختلف المجالات . <span style="text-decoration: underline;">مثل الطب والصحة والتعليم وغيرها.</span> </p><p>يوفر مجموعة واسعة من الخدمات والأدوات التي تساعد على إدارة الأعمال بكفاءة ، بما في ذلك الحجز عبر الإنترنت ، والتواصل مع العملاء ، وتقديم المحتوى ، وغيرها.</p><p>بفضل تصميمه المرن والقابل للتخصيص ، يمكن للموقع أن ينمو ويتطور بمعدلات مختلفة ويتكيف مع متطلبات النشاط التجاري أو الفردي بسلاسة وكفاءة</p>
@@ -359,9 +373,21 @@ outline: none !important;
                 <h3 class="name fcairo">تخصيص وتطوير متقدم</h3>
                 <p class="description fcairo">يتيح الموقع إمكانية تخصيص وتطوير متقدم بحسب احتياجات المستخدمين، مما يجعله مناسبًا لمختلف الصناعات والاستخدامات.</p>
             </div>
-            <div class="col-sm-6 col-lg-4 item"><i class="fa fa-bullhorn icon"></i>
+            <div class="col-sm-6 col-lg-4 item"><i class="fa fa-facebook icon"></i>
                 <h3 class="name fcairo">الربط بوسائل التواصل الاجتماعي</h3>
                 <p class="description fcairo">يتيح الموقع ربطًا سهلًا وفعّالًا بمنصات التواصل الاجتماعي مثل فيسبوك، تويتر، إنستغرام وغيرها، مما يعزز التفاعل مع الجمهور ويزيد من تواجد العلامة التجارية عبر الإنترنت.</p>
+            </div>
+			<div class="col-sm-6 col-lg-4 item"><i class="fa fa-buysellads icon"></i>
+                <h3 class="name fcairo">مدعوم بالذكاء الصناعى</h3>
+                <p class="description fcairo">الموقع مدعوم بالذكاء الصناعى بحيث يوفر انشاء المحتوى من خلال اختيارات سهلة ومتعددة بالاضافة الى مميزات حفظ وادارة المحتوى لاعادة استخدامة.</p>
+            </div>
+			<div class="col-sm-6 col-lg-4 item"><i class="fa fa-microphone icon"></i>
+                <h3 class="name fcairo">انشاء المحتوى والكتابة الصوتية</h3>
+                <p class="description fcairo">يقدم الموقع امكانية تحويل الصوت الى نص او ( كلام ) بحيث يمكن استخدام الميكرفون او المايك لتحويل الصوت الى نص ليوفر سهولة انشاء المحتوى باستخدام الصوت بدلا من الكتابة.</p>
+            </div>
+			<div class="col-sm-6 col-lg-4 item"><i class="fa fa-compress icon"></i>
+                <h3 class="name fcairo">نظام ضغط الصور</h3>
+                <p class="description fcairo">يقدم الموقع نظام ضغط الصور الخاصة بالموقع بطريقة سهلة لتحسين سرعه الموقع وتوفير وحفظ موارد الخادم او السيرفر.</p>
             </div>
         </div>
     </div>
@@ -379,43 +405,53 @@ outline: none !important;
 			  </p>
 			</div>
 			<ul>
+			
                     <li>واجهة سهلة وبسيطة</li>
                     <li>متجاوب مع جميع الأجهزة واحجام الشاشات</li>
 			<li>برمجة خاصة ( شغل عموله )</li>
 			<li>كود نظيف وإحترافى</li>
                     <li>دعم تعدد اللغات ( واجهة الموقع - لوحة تحكم الإدارة )</li>
-					<li>دعم تعدد الألوان</li>
+					<li>دعم تعدد الألوان والقالب</li>
 					<li>دعم إتجاة اليمين RTL</li>
-					<li>إدارة إنشاء صفحات دينامكية</li>
-					<li>إدارة السيو (SEO) عملية تهيئة المواقع لمحركات البحث</li>
+					<li>دعم وتضمين استخدام الذكاء الصناعى</li>
+			<li>انشاء المحتوى بالذكاء الصناعى بطريقة سهلة وسريعه</li>
+			<li>انشاء المحتوى باستخدام الصوت - تحويل الصوت الى نص عن طريق الهاتف او الكمبيوتر</li>
+			<li>ادارة وتحكم فى ملفات محتوى الذكاء الصناعى</li>
+			<li>ضغط الصور الخاصة بالموقع لتوفير موارد السيرفر</li>
+			<li>حفظ ونسخ قاعدة بيانات الموقع من لوحة التحكم</li>
+					
+					<li>دعم السيو (SEO) عملية تهيئة المواقع لمحركات البحث</li>
 					<li>سهولة التثبيت على الخادم</li>
-					<li>دعم خيار إسترداد كلمة المرور للوحة الإدارة</li>
-					<li>إدارة خيار إعداد البريد الإلكتروني من قبل المشرف</li>
+					<li>دعم إسترداد كلمة المرور للوحة الإدارة</li>
+					<li>إدارة وإعداد البريد الإلكتروني من قبل المشرف</li>
 					<li>دعم الكابتشا والتأمين والحماية ضد هجمات SQL وXSS وما إلى ذلك</li>
+					<li>إنشاء صفحات دينامكية غير محدودة</li>
 					<li>إدارة الخدمات ( Services )</li>
 					<li>إدارة سلايدر الصور والبيانات</li>
-					<li>إدارة فديو تعريفى ورسالة ترحيب</li>
+					<li>إدارة فديو تعريفى ورسالة التعريف</li>
 					<li>إدارة لماذا تختارنا</li>
 					<li>إدارة المميزات الخاصة</li>
 					<li>إدارة عداد عناصر وبنود الإنجازات</li>
-					<li>إدارة معرض الأعمال او المشروعات ( Portfolios )</li>
+					<li>إدارة الانجازات او معرض الأعمال او المشروعات ( Portfolios )</li>
 					<li>إدارة فئات معرض الأعمال ( Portfolios Categories)</li>
-					<li>إدارة الحجز المباشر ( البريد الإلكترونى ) </li>
+					
 					<li>إدارة الأسئلة المتكررة ( Faq )</li>
 					<li>إدارة إعضاء فريق العمل ( فريقنا )</li>
 					<li>إدارة باقات الأسعار</li>
-					<li>إدارة أراء العملاء</li>
-					<li>إدارة التوصيات والشهادات</li>
+					<li>إدارة التقيمات و أراء العملاء</li>
+					<li>إدارة والتوصيات والشهادات</li>
 					<li>إدارة الأحداث والمناسبات</li>
 					<li>إدارة المدونة المنشورات او الأخبار</li>
 					<li>إدارة تصنيف المدونة</li>
 					<li>إدارة معرض الصور</li>
 					<li>إدارة الشعار ( لوجو ) الموقع</li>
-					<li>دعم البحث فى المدونة </li>
-					<li>نظام تشغيل/إيقاف التحميل المسبق للتحكم في سرعة الصفحة</li>
+					
 					<li>إدارة الربط بمواقع التواصل الإجتماعى ( سوشيال ميديا )</li>
 					<li>إدارة العناوين ووسائل التواصل</li>
 					<li>إدارة دمج خرايطة الموقع او العنوان من جوجل</li>
+					<li>دعم الحجز اونلاين ( البريد الإلكترونى ) </li>
+					<li>دعم البحث فى المدونة </li>
+					<li>دعم التحميل المسبق لتحسين سرعة الموقع</li>
                 </ul>
 		
 		
@@ -430,49 +466,90 @@ outline: none !important;
 		</div>
     </div>	
 
-
-<a target="_blank" href="https://api.whatsapp.com/send?phone=201063939953&amp;text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85+%D8%B9%D9%84%D9%8A%D9%83%D9%85+%F0%9F%91%8B" id="whatsapp-button" style="position:fixed; bottom:10px; right:10px; width:60px; z-index:999;"><img style="width:100%;" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPHBhdGggc3R5bGU9ImZpbGw6I0VERURFRDsiIGQ9Ik0wLDUxMmwzNS4zMS0xMjhDMTIuMzU5LDM0NC4yNzYsMCwzMDAuMTM4LDAsMjU0LjIzNEMwLDExNC43NTksMTE0Ljc1OSwwLDI1NS4xMTcsMCAgUzUxMiwxMTQuNzU5LDUxMiwyNTQuMjM0UzM5NS40NzYsNTEyLDI1NS4xMTcsNTEyYy00NC4xMzgsMC04Ni41MS0xNC4xMjQtMTI0LjQ2OS0zNS4zMUwwLDUxMnoiLz4KPHBhdGggc3R5bGU9ImZpbGw6IzU1Q0Q2QzsiIGQ9Ik0xMzcuNzEsNDMwLjc4Nmw3Ljk0NSw0LjQxNGMzMi42NjIsMjAuMzAzLDcwLjYyMSwzMi42NjIsMTEwLjM0NSwzMi42NjIgIGMxMTUuNjQxLDAsMjExLjg2Mi05Ni4yMjEsMjExLjg2Mi0yMTMuNjI4UzM3MS42NDEsNDQuMTM4LDI1NS4xMTcsNDQuMTM4UzQ0LjEzOCwxMzcuNzEsNDQuMTM4LDI1NC4yMzQgIGMwLDQwLjYwNywxMS40NzYsODAuMzMxLDMyLjY2MiwxMTMuODc2bDUuMjk3LDcuOTQ1bC0yMC4zMDMsNzQuMTUyTDEzNy43MSw0MzAuNzg2eiIvPgo8cGF0aCBzdHlsZT0iZmlsbDojRkVGRUZFOyIgZD0iTTE4Ny4xNDUsMTM1Ljk0NWwtMTYuNzcyLTAuODgzYy01LjI5NywwLTEwLjU5MywxLjc2Ni0xNC4xMjQsNS4yOTcgIGMtNy45NDUsNy4wNjItMjEuMTg2LDIwLjMwMy0yNC43MTcsMzcuOTU5Yy02LjE3OSwyNi40ODMsMy41MzEsNTguMjYyLDI2LjQ4Myw5MC4wNDFzNjcuMDksODIuOTc5LDE0NC43NzIsMTA1LjA0OCAgYzI0LjcxNyw3LjA2Miw0NC4xMzgsMi42NDgsNjAuMDI4LTcuMDYyYzEyLjM1OS03Ljk0NSwyMC4zMDMtMjAuMzAzLDIyLjk1Mi0zMy41NDVsMi42NDgtMTIuMzU5ICBjMC44ODMtMy41MzEtMC44ODMtNy45NDUtNC40MTQtOS43MWwtNTUuNjE0LTI1LjZjLTMuNTMxLTEuNzY2LTcuOTQ1LTAuODgzLTEwLjU5MywyLjY0OGwtMjIuMDY5LDI4LjI0OCAgYy0xLjc2NiwxLjc2Ni00LjQxNCwyLjY0OC03LjA2MiwxLjc2NmMtMTUuMDA3LTUuMjk3LTY1LjMyNC0yNi40ODMtOTIuNjktNzkuNDQ4Yy0wLjg4My0yLjY0OC0wLjg4My01LjI5NywwLjg4My03LjA2MiAgbDIxLjE4Ni0yMy44MzRjMS43NjYtMi42NDgsMi42NDgtNi4xNzksMS43NjYtOC44MjhsLTI1LjYtNTcuMzc5QzE5My4zMjQsMTM4LjU5MywxOTAuNjc2LDEzNS45NDUsMTg3LjE0NSwxMzUuOTQ1Ii8+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="></a>
+<!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_32 a2a_floating_style  a2a_vertical_style" style="left: 20px;transform: translateX(-10px);bottom: 80px;line-height: 32px;">
+<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_whatsapp"></a>
+<a class="a2a_button_facebook_messenger"></a>
+<a class="a2a_button_print"></a>
+</div>
+<script>
+var a2a_config = a2a_config || {};
+a2a_config.onclick = 1;
+a2a_config.locale = "ar";
+a2a_config.num_services = 4;
+</script>
+<script defer src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
+	
+	
+	<a target="_blank" href="https://api.whatsapp.com/send?phone=201063939953&amp;text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85+%D8%B9%D9%84%D9%8A%D9%83%D9%85+%F0%9F%91%8B" id="whatsapp-button" style="position:fixed; bottom:10px; left:10px; width:60px; z-index:999;"><img style="width:100%;" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPHBhdGggc3R5bGU9ImZpbGw6I0VERURFRDsiIGQ9Ik0wLDUxMmwzNS4zMS0xMjhDMTIuMzU5LDM0NC4yNzYsMCwzMDAuMTM4LDAsMjU0LjIzNEMwLDExNC43NTksMTE0Ljc1OSwwLDI1NS4xMTcsMCAgUzUxMiwxMTQuNzU5LDUxMiwyNTQuMjM0UzM5NS40NzYsNTEyLDI1NS4xMTcsNTEyYy00NC4xMzgsMC04Ni41MS0xNC4xMjQtMTI0LjQ2OS0zNS4zMUwwLDUxMnoiLz4KPHBhdGggc3R5bGU9ImZpbGw6IzU1Q0Q2QzsiIGQ9Ik0xMzcuNzEsNDMwLjc4Nmw3Ljk0NSw0LjQxNGMzMi42NjIsMjAuMzAzLDcwLjYyMSwzMi42NjIsMTEwLjM0NSwzMi42NjIgIGMxMTUuNjQxLDAsMjExLjg2Mi05Ni4yMjEsMjExLjg2Mi0yMTMuNjI4UzM3MS42NDEsNDQuMTM4LDI1NS4xMTcsNDQuMTM4UzQ0LjEzOCwxMzcuNzEsNDQuMTM4LDI1NC4yMzQgIGMwLDQwLjYwNywxMS40NzYsODAuMzMxLDMyLjY2MiwxMTMuODc2bDUuMjk3LDcuOTQ1bC0yMC4zMDMsNzQuMTUyTDEzNy43MSw0MzAuNzg2eiIvPgo8cGF0aCBzdHlsZT0iZmlsbDojRkVGRUZFOyIgZD0iTTE4Ny4xNDUsMTM1Ljk0NWwtMTYuNzcyLTAuODgzYy01LjI5NywwLTEwLjU5MywxLjc2Ni0xNC4xMjQsNS4yOTcgIGMtNy45NDUsNy4wNjItMjEuMTg2LDIwLjMwMy0yNC43MTcsMzcuOTU5Yy02LjE3OSwyNi40ODMsMy41MzEsNTguMjYyLDI2LjQ4Myw5MC4wNDFzNjcuMDksODIuOTc5LDE0NC43NzIsMTA1LjA0OCAgYzI0LjcxNyw3LjA2Miw0NC4xMzgsMi42NDgsNjAuMDI4LTcuMDYyYzEyLjM1OS03Ljk0NSwyMC4zMDMtMjAuMzAzLDIyLjk1Mi0zMy41NDVsMi42NDgtMTIuMzU5ICBjMC44ODMtMy41MzEtMC44ODMtNy45NDUtNC40MTQtOS43MWwtNTUuNjE0LTI1LjZjLTMuNTMxLTEuNzY2LTcuOTQ1LTAuODgzLTEwLjU5MywyLjY0OGwtMjIuMDY5LDI4LjI0OCAgYy0xLjc2NiwxLjc2Ni00LjQxNCwyLjY0OC03LjA2MiwxLjc2NmMtMTUuMDA3LTUuMjk3LTY1LjMyNC0yNi40ODMtOTIuNjktNzkuNDQ4Yy0wLjg4My0yLjY0OC0wLjg4My01LjI5NywwLjg4My03LjA2MiAgbDIxLjE4Ni0yMy44MzRjMS43NjYtMi42NDgsMi42NDgtNi4xNzksMS43NjYtOC44MjhsLTI1LjYtNTcuMzc5QzE5My4zMjQsMTM4LjU5MywxOTAuNjc2LDEzNS45NDUsMTg3LjE0NSwxMzUuOTQ1Ii8+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="></a>
+	
 	<div class="progress-wrap">
       <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
       <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
       </svg>
   </div>
-<div class="footer-clean hidden">
+	
+	<div class="footer-clean ">
         <footer>
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-sm-4 col-md-3 item">
-                        <h3>Services</h3>
+                <div class="row justify-content-center tajawal">
+                    <div class="col-sm-4 col-md-3 item ">
+                        <h3>خدماتنا</h3>
                         <ul>
-                            <li><a href="#">Web design</a></li>
-                            <li><a href="#">Development</a></li>
-                            <li><a href="#">Hosting</a></li>
+                            <li><a href="#">برمجة وتصميم مواقع الويب</a></li>
+                            <li><a href="#">تطوير وتحسين مواقع الويب</a></li>
+                            <li><a href="#">حجز الدومين</a></li>
+							<li><a href="#">حجز الاستضافة</a></li>
+							<li><a href="#">رفع المواقع الى السيرفر وضبط الاعدادات</a></li>
+							<li><a href="#">ربط المواقع مع محركات ومواقع البحث والارشفة. مثل جوجل وبينج</a></li>
+							
+							<li><a href="#">خدمات تحسين الارشفة والظهور فى محركات البحث</a></li>
+							<li><a href="#">إنشاء المحتوى والتصميمات</a></li>
+							<li><a href="#">إنشاء صفحات الفيس بوك والسوشيال مديا</a></li>
+							<li><a href="#">إدارة صفحات الفيس بوك والسوشيال مديا</a></li>
+                        
+                        
+						
+						</ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item ">
+                        <h3>خبرتنا</h3>
+                        <ul>
+                            <li><a href="#">25 سنة بناء وتطوير نظم المعلومات</a></li>
+						<li><a href="#">أعمالنا فى .</a> مصر , الامارات , السعودية </a></li>
+                            <li><a href="#">مواقع ويب</a></li>
+							<li><a href="#">متاجر إلكترونية</a></li>
+							<li><a href="#">مبوبات إعلانية</a></li>
+							<li><a href="#">منصات تعليمية</a></li>
+							<li><a href="#">نقاط البيع</a></li>
+							<li><a href="#">تطبيقات إدارة المؤسسات والشركات</a></li>
+							<li><a href="#">تطبيقات المخازن والحسابات</a></li>
                         </ul>
                     </div>
-                    <div class="col-sm-4 col-md-3 item">
-                        <h3>About</h3>
+                    <div class="col-sm-4 col-md-3 item ">
+                        <h3>متخصصون</h3>
                         <ul>
-                            <li><a href="#">Company</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Legacy</a></li>
+                            <li><a href="#">تحليل النظم</a></li>
+                            <li><a href="#">ميكنة الاعمال</a></li>
+                            <li><a href="#">قواعد البيانات</a></li>
                         </ul>
                     </div>
-                    <div class="col-sm-4 col-md-3 item">
-                        <h3>Careers</h3>
-                        <ul>
-                            <li><a href="#">Job openings</a></li>
-                            <li><a href="#">Employee success</a></li>
-                            <li><a href="#">Benefits</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
-                        <p class="copyright">Company Name © 2017</p>
+                    <div class="col-lg-3 item social">
+					<h3>صفحتنا على فيسبوك</h3>
+					<a href="https://www.facebook.com/weblangly"><i class="icon ion-social-facebook"></i></a>
+					<!--
+					<a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+					
+					-->
+                        <p class="copyright">Weblangly © 2026</p>
                     </div>
                 </div>
             </div>
         </footer>
-    </div>
-
+</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>

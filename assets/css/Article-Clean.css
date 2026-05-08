@@ -21,7 +21,7 @@
 
 .article-clean .intro p {
   color: #929292;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .article-clean .intro p .by {
@@ -52,7 +52,7 @@
 
 @media (min-width:768px) {
   .article-clean .text p {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 
