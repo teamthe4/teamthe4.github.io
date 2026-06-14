@@ -48,7 +48,8 @@
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
 <link rel="manifest" href="assets/favicon/site.webmanifest">
-	<style>
+
+<style>
 
 	.hidden{display: none !important;}
 	.imgheight{min-height:400px;max-height:400px;height:400px;width: 100%;overflow-y: scroll;overflow-x: hidden;}
@@ -217,6 +218,30 @@ outline: none !important;
     border-style: none !important;
 	}
 	</style>
+
+<style>
+	
+	/* كلاس موحد للأيقونات داخل القائمة */
+	ul li {
+    margin: 6px 0;         /* مسافة بين عناصر القائمة */
+    font-size: 20px;       /* حجم النص */
+    line-height: 1.6;      /* ارتفاع السطر لتوازن الشكل */
+  }
+  ul li i {
+    font-size: 20px;       /* حجم الأيقونة */
+    width: 25px;           /* عرض ثابت للأيقونة لضبط المحاذاة */
+    text-align: center;    /* توسيط الأيقونة داخل المساحة */
+    margin-right: 8px;     /* مسافة بين الأيقونة والنص */
+    color: #07a8f1;           /* لون الأيقونة (يمكن تغييره حسب التصميم) */
+  }
+
+  ul {
+    list-style: none;      /* إزالة النقاط الافتراضية للقائمة */
+    padding: 0;
+  }
+
+  
+</style>
 </head>
 
 <body>
@@ -465,14 +490,15 @@ a2a_config.num_services = 4;
             </div>
         </footer>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="assets/js/script.min.js"></script>
-	
-<script>
-(function($) { "use strict";
+
+
+  <script>
+  (function($) { "use strict";
 	
 $(document).ready(function(){"use strict";
 
@@ -512,7 +538,29 @@ $(document).ready(function(){"use strict";
 	});
 
 })(jQuery);	
-</script>
+
+    /*
+	window._2chatConfig = {
+      phoneNumber:'+201063939953',
+      accountName: `Weblangly`,
+      statusMessage: `ويب لانجلى . برمجة وتصميم الويب`,
+      chatMessage: `السلام عليكم ! 👋`,
+      placeholder: '! مرحباً، أريد أن أعرف المزيذ',
+      position: 'right',
+      colorScheme: 'automatic',
+      showNotification: false,
+    };
+  
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://widgets.2chat.io/index.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', '_2chat'));
+  */
+  </script>
+  
 </body>
 
 </html>
